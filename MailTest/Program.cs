@@ -28,7 +28,7 @@ namespace MailTest
             {
                 client.Connect("smtp.gmail.com", 587, false);
                 // Note: only needed if the SMTP server requires authentication
-                client.Authenticate("devmlbd@gmail.com", "TDM%dev@2021!comrade");
+                client.Authenticate("devmlbd@gmail.com", "emialsecrate");
                 client.Send(message);
                 client.Disconnect(true);
             }
